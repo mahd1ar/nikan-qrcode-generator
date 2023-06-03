@@ -53,7 +53,7 @@ readFileSync(csvFilePath)
             console.log('takhfif for ' + code + ' generated!');
         });
 
-        QRCode.toFile(`./vcard/${code}2.jpg`, `https://nikan-alumni.com/vcard/${code}?ref=card`, {
+        QRCode.toFile(`./vcard/${code}1.jpg`, `https://nikan-alumni.com/vcard/${code}?ref=card`, {
             color: {
                 dark: '#000',  // Blue dots
                 light: '#FFF' // Transparent background
